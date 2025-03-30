@@ -1,0 +1,121 @@
+/* Bradley Newell, 3/25/25, Midterm Project. */
+body {
+	background-color: #9da5a6;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	width: 50%;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+	color: #000000;
+	padding: 9px;
+}
+
+nav {
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 9px;
+	background-color: #333;
+
+}
+
+nav ul li {
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 9px;
+	margin-left: 9px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #9aedf5;
+	padding: 9px;
+}
+
+nav a:hover {
+	color: #ff5733;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: Center;
+}
+
+footer {
+	color: #9aedf5;
+	font-size: .75em;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 9px;
+	background-color: #333;
+	margin: auto;
+	clear: both;
+}
+
+/* Adjusts position of image on home page.*/
+.main img {
+	width: 40%;
+	float: left;
+	margin: 0px 9px 9px 0px;
+}
+
+/* Adjusts the text in the image showcase.*/
+.showcase p {
+	text-align: Center;
+	font-style: italic;
+}
+
+/* Adjusts the text in the container class.*/
+.container {
+	text-align: center;
+}
+
+/* Adjusts the list class.*/
+.list {
+	display: inline-block;
+	text-align: left;
+	text-justify: auto;
+	list-style-position: outside;
+	padding-left: 0;
+	list-style-type: "🌕";
+}
+
+/* Adjusts the plist class.*/
+.plist {
+	display: inline-block;
+	text-align: left;
+	text-justify: auto;
+	list-style-position: outside;
+	padding-left: 0;
+	list-style-type: "📷";
+}
+
+/* Adjusts photo class.*/
+.photo {
+	max-width: 60%;
+	display: block;
+	margin: auto;
+	border-radius: 9px;
+	box-shadow: 9px 9px 9px grey;
+}
+
+/* Adjusts wrapper class.*/
+.wrapper {
+	max-width: 70%;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
