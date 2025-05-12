@@ -1,0 +1,193 @@
+/* Bradley Newell, 5/9/25, Final Project. */
+body {
+	background-color: #41004d;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	width: 50%;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+	color: #de006b;
+	padding: 9px;
+}
+
+nav {
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 9px;
+	background-color: #000924;
+
+}
+
+nav ul li {
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 9px;
+	margin-left: 9px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #9aedf5;
+	padding: 9px;
+}
+
+nav a:hover {
+	color: #ff5733;
+}
+
+a:visited {
+	color: #0b03fc;
+}
+
+a:link {
+	Color: #03fce3;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: Center;
+	color: #de006b;
+	font-size: 2.5em;
+}
+
+p {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: Center;
+	color: #11bcd6;
+	font-size: 1.8em;
+}
+
+footer {
+	color: #9aedf5;
+	font-size: .75em;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 9px;
+	background-color: #000924;
+	margin: auto;
+	clear: both;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	color: #de006b;
+}
+
+input,
+select,
+textarea {
+	margin-bottom: 0.5em;
+}
+
+input[type="checkbox"] {
+	display: inline;
+	margin: 0;
+	width: 1.15em;
+	height: 1.15em;
+}
+
+input[type="radio"] {
+	background-color: #fff;
+	margin: 0;
+	width: 1.15em;
+	height: 1.15em;
+}
+
+/* Adjusts position of image on home page.*/
+.main img {
+	width: 40%;
+	float: left;
+	margin: 0px 9px 9px 0px;
+}
+
+/* Adjusts the text in the image showcase.*/
+.showcase p {
+	text-align: Center;
+	font-style: italic;
+}
+
+/* Adjusts the text in the container class.*/
+.container {
+	text-align: center;
+}
+
+/* Adjusts the list class.*/
+.list {
+	display: inline-block;
+	text-align: left;
+	text-justify: auto;
+	list-style-position: outside;
+	padding-left: 0;
+	list-style-type: "🌕";
+	color: #11bcd6;
+}
+
+/* Adjusts photo class.*/
+.photo {
+	max-width: 60%;
+	display: block;
+	margin: auto;
+	border-radius: 9px;
+	box-shadow: 9px 9px 9px #050036;
+}
+
+/* Adjusts wrapper class.*/
+.wrapper {
+	max-width: 80%;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (max-width: 768px) {
+	form {
+		display: flex;
+		width: 60%;
+		max-width: 30em;
+		gap: 1em;
+		grid-template-columns: 6em 1fr;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.wrapper {
+		padding: 9px;
+	}
+
+	nav ul {
+		padding: 5px;
+	}
+
+	nav ul li {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+}
