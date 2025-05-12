@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Bradley Newell 5/9/25 -->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Home</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header>
+            <h1>Top 5 Astrophotography Targets</h1>
+            <nav>
+               <ul>
+                  <li><a href="final1.html">Home</a></li>
+                  <li><a href="final2.html">Top 5 Targets</a></li>
+                  <li><a href="final3.html">Contact Us</a></li>
+                  <li><a href="final4.html">Credits</a></li>
+               </ul>
+            </nav>
+         </header>
+         <main>
+            <div class="main">
+               <img src="images/orion.jpg" alt="nebula">
+               <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+                  <label for="fullname"> Full Name:
+                  </label>
+                  <input type="text" id="fullname" required>
+                  <label for="email"> Email Address:</label>
+                  <input type="text" id="email" required>
+                  <label for="topic"> Topic:</label>
+                  <select id="topic">
+                     <option value="general"> General Inquiry</option>
+                     <option value="support"> Support</option>
+                     <option value="feedback"> Feedback</option>
+                  </select>
+                  <label for="message"> Message:</label>
+                  <textarea id="message" rows="5" required></textarea>
+                  <label for="date"> Date:</label>
+                  <input type="date" value="2025-05-09" id="date">
+                  <p>Which of the following targets did you shoot?</p>
+                  <label for="California"> California Nebula </label>
+                  <input type="checkbox" id="California" value="California">
+                  <label for="Pleiades"> Pleiades Cluster </label> 	  
+                  <input type="checkbox" id="Pleiades" value="Pleiades">
+                  <label for="horsehead"> Horsehead Nebula </label> 	  
+                  <input type="checkbox" id="horsehead" value="horsehead">
+                  <label for="orion"> Orion Nebula </label>	  
+                  <input type="checkbox" id="orion" value="orion">
+                  <label for="andromeda"> Andromeda Galaxy </label>	  
+                  <input type="checkbox" id="andromeda" value="andromeda"> 
+                  <p>Would you like to be contacted back?</p>
+                  <label for="yes"> Yes </label> 
+                  <input type="radio" value="Yes" id="yes">
+                  <label for="no"> No</label> 
+                  <input type="radio" value="No" id="no">
+                  <input type="reset" value="Reset">
+                  <input type="submit" value="Send Message">
+               </form>
+            </div>
+         </main>
+         <footer>
+            <nav>
+               <ul>
+                  <li><a href="final1.html">Home</a></li>
+                  <li><a href="final2.html">Top 5 Targets</a></li>
+                  <li><a href="final3.html">Contact Us</a></li>
+                  <li><a href="final4.html">Credits</a></li>
+               </ul>
+            </nav>
+            © 2025 Bradley Newell | All Rights Reserved 
+         </footer>
+      </div>
+   </body>
+</html>
